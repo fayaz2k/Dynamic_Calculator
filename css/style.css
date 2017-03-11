@@ -1,0 +1,117 @@
+body{
+    background-color: black;
+    background: url(../images/m-liberty.jpg) no-repeat top center;  background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Cal_wrapper{
+    width: 300px;
+    height: 300px;
+    border: 1px solid cyan;
+    /*background-color: white;*/
+
+    /*background: url(../images/boy.jpg) no-repeat top center; 
+    background-size: cover;*/
+    /*width: 300px; height: 300px;*/
+    
+
+    /*background: url(../images/girl_hood.jpg) no-repeat top center; 
+    background-size: cover;*/
+    /*width: 300px; height: 300px; */
+
+    /*background: url(../images/man_bench.jpg) no-repeat top center;
+    background-size: cover;*/
+    /*width: 300px; height: 300px;*/
+    
+
+    /*background: url(../images/man_smoke.jpg) no-repeat top center;
+    background-size: cover;*/
+    /*width: 300px; height: 300px;*/
+    
+
+    background: url(../images/sanfran.jpg) no-repeat top center;
+    background-size: cover;
+    /*width: 300px; height: 300px;*/
+    
+
+    /*background: url(../images/pisa.jpg) no-repeat top center;
+    background-size: cover;*/
+    /*width: 300px; height: 300px;*/
+    
+    margin: 10px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    /*border: 1px solid black;*/
+    width: 280px;
+    /*height: 52px;*/
+    margin: 10px auto 0 auto;
+}
+
+form fieldset {
+    text-align: center;
+    -webkit-border-radius:5px;
+    
+    font-weight: bold;
+}
+
+form fieldset input{
+    width: 266px;
+    height: 30px;
+    margin-bottom: 10px;
+    text-indent: 10px;
+    -webkit-border-radius: 5px;
+    /*color: red;*/
+    /*font-weight: bold;*/
+    font-size: 24px;
+}
+
+.numbers_btn{
+    width: 200px;
+    /*border: red 1px solid;*/
+    margin: 0 3px;
+    float: left;
+}
+
+.numbers_btn fieldset, .maths_oprators fieldset {
+    text-align: center;
+    -webkit-border-radius:5px;
+    /*height: 300px;*/
+    margin: 0 auto;
+}
+
+.maths_oprators{
+   /* width: 60px;*/
+    /*border: blue 1px solid;*/
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+.numbers_btn tr td/*, .maths_oprators tr td*/{
+    padding: 0 0 6px 3px;
+}
+
+.numbers_btn tr td input/*, .maths_oprators tr td input*/{  
+    width: 46px;
+    height: 36px;
+    margin: 0 6px;
+    /*padding: 10px;*/
+    font-size: 24px;
+}
+
+.maths_oprators tr td{
+   padding-top: 3px; 
+}
+
+.maths_oprators tr td input{
+   width: 46px;
+   height: 30px;
+   margin: 0 6px;
+}
+
